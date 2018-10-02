@@ -11,14 +11,14 @@ import tillerino.tillerinobot.CommandHandler.Message;
 import tillerino.tillerinobot.CommandHandler.Response;
 
 /**
- * @author Tomoka Rin leoyao321@gmail.com https://osu.ppy.sh/u/125308
+ * @author Tomoka Rin https://osu.ppy.sh/u/125308
  */
 public class ChineseTraditional implements Language {
 	static final Random rnd = new Random();
 
 	@Override
 	public String unknownBeatmap() {
-		return "抱歉，查詢不到這個譜面的資料唷。這個譜面可能是尚未Rank、過新、太難或非標準模式用的譜面。";
+		return "抱歉，查詢不到這個譜面的資料唷。譜面可能是Unrank、新Rank、難度過高或非標準模式(Standard Mode)用的譜面。";
 	}
 
 	@Override
