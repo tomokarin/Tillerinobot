@@ -97,7 +97,7 @@ public class ChineseTraditional implements Language {
 
 	@Override
 	public String tryWithMods(List<Mods> mods) {
-		return "試著加上" + Mods.toShortNamesContinuous(mods) + "挑戰這首歌!";
+		return "試著加上" + Mods.toShortNamesContinuous(mods) + "挑戰這首歌吧!";
 	}
 
 	@Override
